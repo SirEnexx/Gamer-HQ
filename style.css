@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Syne Mono', monospace;
+}
+
+body {
+    background-color: #1b1b1b;
+}
+
+
+h1, h2, p {
+    color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+button {
+    border-color: red;
+}
+
+hr {
+    border-color: white;
+    border-width: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a {
+    color: red;
+    padding: 0px 20px 0px 20px;
+}
+
+#myCarousel img {
+    height: 800px;
+    padding: 40px 40px 40px 40px;
+}
+
+#search {
+    float: right;
+    margin-right: 30px;
+}
+
+#nav {
+    text-align: center;
+}
+
+#links {
+    position: relative;
+    left: 120px;
+}
+
+#title {
+    padding-top: 20px;
+    padding-left: 20px;
+    display: inline-block;
+    text-align: center;
+    font-size: 60px;
+}
+
+#one {
+    background-image: url(mc.png);
+    background-repeat: no-repeat;
+}
+
+#two {
+    background-image: url(genshin.png);
+    background-repeat: no-repeat;
+}
+
+#three {
+    background-image: url(ut.png);
+    background-repeat: no-repeat;
+}
+
+.card {
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+}
+
+.middle {
+    padding: 20px 20px 20px 20px;
+}
+
+.news{ 
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.red {
+    color: red;
+}
+
+.signlog {
+    float: right;
+    margin-right: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
